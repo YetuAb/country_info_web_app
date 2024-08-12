@@ -1,0 +1,19 @@
+# Node modules directory
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables file
+.env
+
+# Optional npm cache directory
+.npm/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
