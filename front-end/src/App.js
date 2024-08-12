@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import SearchBar from "./components/SearchBar";
 import CountryInfo from "./components/CountryInfo";
 import axios from "axios";
+import "./App.css";
+import Logo from "./assets/images/logo512.png";
 
 function App() {
   const [country, setCountry] = useState(null);
@@ -19,7 +21,10 @@ function App() {
 
   return (
     <div>
-      <h1>Country Info Finder</h1>
+      <div className="header">
+        <img className="logo" src={Logo} alt="Logo" />
+        <h1 className="title">Country Info Finder</h1>
+      </div>
       <SearchBar onSearch={handleSearch} />
       {country && !country.error && <CountryInfo country={country} />}
       {country && country.error && (
