@@ -28,7 +28,9 @@ function App() {
       <SearchBar onSearch={handleSearch} />
       {country && !country.error && <CountryInfo country={country} />}
       {country && country.error && (
-        <p style={{ color: "red" }}>{country.error}</p>
+        <p className="country-error" style={{ color: "red" }}>
+          {country.error}
+        </p>
       )}
     </div>
   );

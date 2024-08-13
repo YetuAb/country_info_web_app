@@ -38,6 +38,15 @@ body {
     max-height 0.2s ease;
 }
 
+.country-error {
+  color: red;
+  margin-top: 0;
+  margin-left: 60px;
+  align-self: flex-start;
+  font-size: medium;
+  transition: padding 0.2s ease;
+}
+
 @media (max-width: 1024px) {
   body {
     padding: 70px 40px 300px;
