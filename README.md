@@ -1,8 +1,8 @@
-# Country Info Finder
+# Search the World
 
 ## Overview
 
-Country Info Finder is a simple web application that allows users to search for and view information about different countries. The application consists of a React frontend and a Node.js backend that fetches data from the REST Countries API.
+Search the World is a simple web application that allows users to search for and view information about different countries. The application consists of a React frontend and a Node.js backend that fetches data from the REST Countries API.
 
 ## Features
 
