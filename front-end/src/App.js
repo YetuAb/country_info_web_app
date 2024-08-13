@@ -23,7 +23,7 @@ function App() {
     <div>
       <div className="header">
         <img className="logo" src={Logo} alt="Logo" />
-        <h1 className="title">Country Info Finder</h1>
+        <h1 className="title">Search the World</h1>
       </div>
       <SearchBar onSearch={handleSearch} />
       {country && !country.error && <CountryInfo country={country} />}
